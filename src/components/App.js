@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function App() {
-    const[str1,setStr1] = useState("");
+  const[str1,setStr1] = useState("");
   const[str2,setStr2] = useState("");
   const[isError, setIsError] = useState(false);
   const[relation,setRealtion] = useState("");
@@ -49,7 +49,7 @@ function App() {
      <div id="main">
        <div>
          <h1>Flames</h1>
-         <label htmlFor="firstName">First Name:</label>
+         First Name:
          <input
            type="text"
            value={str1}
@@ -57,7 +57,7 @@ function App() {
            onChange={handleStr1}
          />
          <br />
-         <label htmlFor="firstName">Second Name:</label>
+         Second Name:
          <input
            type="text"
            value={str2}
